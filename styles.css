@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #aeefff;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #333333
+}
+
+.header h3 {
+    font-size: 20px;
+    color: #646464
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    background: #d2e7ec
+}
