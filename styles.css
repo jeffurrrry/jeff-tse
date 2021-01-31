@@ -9,7 +9,7 @@ body {
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: #333333
 }
 
@@ -18,8 +18,43 @@ body {
     color: #646464
 }
 
-.intro {
-    font-size: 18px;
-    text-align: center;
-    background: #d2e7ec
+.navbar {
+    overflow: hidden;
+    background-color: dimgray;
 }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: dimgray;
+}
+
+.content {
+    font-size: 15px;
+    text-align: center;
+    background: #d2e7ec;
+    padding: 20px
+}
+
+.content h4 {
+    font-size: 18px;
+}
+
+/*
+.content img.image {
+    text-align: left;
+}
+*/
+
