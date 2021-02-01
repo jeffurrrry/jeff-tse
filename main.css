@@ -1,5 +1,5 @@
-/*  styles.css
-    contains all styling modifications */
+/*  main.css
+    contains main styling modifications */
 
 * {
     box-sizing: border-box;
@@ -15,17 +15,17 @@ body {
 
 /* styling function for th eheader */
 .header {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     background: #aeefff;
 }
 
 .header h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: #333333
 }
 
-.header h3 {
+.header h2 {
     font-size: 20px;
     color: #646464
 }
@@ -41,6 +41,7 @@ body {
     display: block;
     color: white;
     text-align: center;
+    font-size: 18px;
     padding: 15px 15px;
     text-decoration: none;
 }
@@ -54,33 +55,29 @@ body {
     color: dimgray;
 }
 
-/* styling for content of each page */
-.content {
-    font-size: 15px;
+/* styling for columns in pages */
+.columns {
+    font-size: 18px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
 
-.content h4 {
+.columns h4 {
+    font-size: 22px;
+}
+
+/* styling for normal content without columns */
+.content {
     font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
 }
 
-/* Style the left column */
-.left_col {
-    flex: 30%;
-    background-color: #cedadf;
-    padding: 20px;
-}
-
-/* Style the right column */
-.right_col {
-    flex: 70%;
-    padding: 20px
-}
-
+/* adjustments for narrow screens */
 @media screen and (max-width: 700px) {
-    .content {
+    .columns {
         flex-direction: column;
     }
 }
@@ -96,7 +93,7 @@ body {
 .footer {
     background-color: #aeefff;
     text-align: center;
-    padding-top: .5rem;
+    padding-top: .75rem;
 }
 
 .footer a {
@@ -109,7 +106,7 @@ body {
     min-height: 100vh;
 }
 
-#conten-wrap {
+#content-wrap {
     padding-bottom: 3rem /* footer height */
 }
 

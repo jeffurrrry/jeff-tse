@@ -1,0 +1,17 @@
+/* index.css
+    contains styling modifications specific to index.html */
+
+/* Style the left column */
+.left_col {
+    font-size: 18px;
+    flex: 30%;
+    background-color: #cedadf;
+    padding: 20px;
+}
+
+/* Style the right column */
+.right_col {
+    font-size: 18px;
+    flex: 70%;
+    padding: 20px
+}
