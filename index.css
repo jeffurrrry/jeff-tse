@@ -1,6 +1,47 @@
 /* index.css
     contains styling modifications specific to index.html */
 
+body, html {
+    height: 100%;
+}
+
+
+/* styling for navigation bar underneaht header */
+.navbar {
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: dimgray;
+}
+
+.bg {
+    background-image: url(pictures/sunset.jpg);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 /* Style the left column */
 .left_col {
     font-size: 18px;
@@ -15,3 +56,4 @@
     flex: 70%;
     padding: 20px
 }
+
