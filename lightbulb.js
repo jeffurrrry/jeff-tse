@@ -1,5 +1,7 @@
+// need to figure out how to use this file for projects instead of
+// imbedded iframe from p5
+
 /*
-Jeffery Tse
 lightbulb with switch and 
 slider for color temperature
 */
