@@ -2,11 +2,11 @@
 <html lang="en-US">
 
 <head>
-    <title>Jeffery Tse</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="main.css">  -->
-    <link rel="stylesheet" href="index.css">
+  <title>Jeffery Tse</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="main.css">  -->
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <!-- Disclaimer -->
@@ -15,52 +15,67 @@
     and a little bit of research.</p> -->
 
 <body>
-    <div id="page-container">
-        <div id="content-wrap">
-            <div class="container">
-                <script src="/js.jquery.js"></script>
-                <script scr="/js/jquery.dimesnions.js"></script>
-                <script>
-                    $(document).ready(function () {
-                        var $winwidth = $(window).width();
-                        $("img.bg_img").attr({
-                            width: $winwidth
-                        });
-                        $(window).bind("resize", function () {
-                            var $winwidth = $(window).width();
-                            $("img.bg_img").attr({
-                                width: $winwidth
-                            });
-                        });
+  <div class="container">
+    <!-- <script src="/js.jquery.js"></script>
+        <script scr="/js/jquery.dimesnions.js"></script>
+        <script>
+            $(document).ready(function () {
+                var $winwidth = $(window).width();
+                $("img.bg_img").attr({
+                    width: $winwidth
+                });
+                $(window).bind("resize", function () {
+                    var $winwidth = $(window).width();
+                    $("img.bg_img").attr({
+                        width: $winwidth
                     });
-                    $(document).ready(function () {
-                        var $winwidth = $(window).width();
-                        $("nav").attr({
-                            left: .25 * $winwidth
-                        });
-                        $(window).bind("resize", function () {
-                            var $winwidth = $(window).width();
-                            $("nav").attr({
-                                left: .25 * $winwidth
-                            });
-                        });
+                });
+            });
+            $(document).ready(function () {
+                var $winwidth = $(window).width();
+                $("nav").attr({
+                    left: .25 * $winwidth
+                });
+                $(window).bind("resize", function () {
+                    var $winwidth = $(window).width();
+                    $("nav").attr({
+                        left: .25 * $winwidth
                     });
-                </script>
-                <img src="pictures/sunset.jpg">
-                <div class="header">
-                    <h1>Jeffery Tse</h1>
-                    <h2>Computer Science Student</h2>
-                </div>
-                <div id="nav">
+                });
+            });
+        </script> -->
+    <img src="pictures/sunset.jpg">
+
+    <div class="navbar">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html" class="right">contact me</a>
+    </div>
+
+    <div class="header">
+      <h1>Jeffery Tse</h1>
+      <h2>Computer Science Student</h2>
+    </div>
+    <div id="socials">
+      <a href="https://github.com/tse-jeff/"><img 
+          src="pictures/github_logo.jpg" title="github"></a>
+      <a href="https://www.facebook.com/jeffery.tse.hi/"><img
+          src="pictures/fb_logo.png" title="facebook"></a>
+      <a href="https://www.instagram.com/jeffurrrry/"><img
+          src="pictures/insta_logo.png" title="instagram"></a>
+      <a href="https://www.linkedin.com/in/jeffery-tse/"><img
+          src="pictures/linkedin_logo.png" title="facebook"></a>
+    </div>
+    <!-- <div id="nav">
                     <a href="index.html" class="button">home</a>
                     <a href="about.html" class="button">about</a>
                     <a href="projects.html" class="button">projects</a>
                     <a href="contact.html" class="button">contact me</a>
-                </div>
-            </div>
-        </div>
+                </div> -->
 
-        <div class="footer" id="footer">
+
+    <!-- <div class="footer" id="footer">
             <a href="https://github.com/tse-jeff/"><img src=
             "pictures/github_logo.jpg" title="github" width="25"
                     height="25"></a>
@@ -73,11 +88,11 @@
             <a href="https://www.linkedin.com/in/jeffery-tse/"><img src=
             "pictures/linkedin_logo.png" title="facebook"
                     width="25" height="25"></a>
-        </div>
-    </div>
-    <!-- </div> -->
+        </div> -->
+  </div>
+  <!-- </div> -->
 
-    <!-- <div id="page-container">
+  <!-- <div id="page-container">
     <div id="content-wrap">
     <div class="header">
         <h1>Jeffery Tse</h1>
