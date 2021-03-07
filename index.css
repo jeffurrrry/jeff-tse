@@ -4,14 +4,14 @@
 /* Style the left column */
 .left_col {
     font-size: 18px;
-    flex: 30%;
-    background-color: #cedadf;
+    flex: 40%;
     padding: 20px;
 }
 
 /* Style the right column */
 .right_col {
     font-size: 18px;
-    flex: 70%;
-    padding: 20px
+    flex: 60%;
+    padding: 20px;
+    padding-right: 150px;
 }
