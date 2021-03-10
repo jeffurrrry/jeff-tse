@@ -8,7 +8,8 @@ css for the about.html
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     font-size: 18px;
     text-align: left;
 }
@@ -26,4 +27,15 @@ css for the about.html
     align-items: center;
     text-align: center;
     justify-content: left;
+}
+
+/* adjustments for narrow screens */
+@media screen and (max-width: 1600px) {
+    #content {
+        flex-direction: column;
+    }
+
+    #description {
+        width: auto;
+    }
 }
