@@ -1,0 +1,29 @@
+/* 
+about.css
+css for the about.html
+*/
+
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+}
+
+#description {
+    /* flex-direction: column; */
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+#resume {
+    /* flex-direction: column; */
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
