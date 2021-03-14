@@ -14,6 +14,14 @@ body {
     margin: 0;
 }
 
+h1,h2 {
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
 /* styling function for th eheader */
 .header {
     padding: 30px;
@@ -35,6 +43,7 @@ body {
 .navbar {
     overflow: hidden;
     background-color: dimgray;
+    z-index: 2;
 }
 
 .navbar a {
