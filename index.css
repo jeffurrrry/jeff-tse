@@ -3,39 +3,48 @@
 
 #page {
     background-image: url(pictures/sunset.jpg);
+    /* height: 100vh; */
     background-color: lightblue;
     background-repeat: no-repeat;
-    height: 1000px;
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-bottom: 15vh;
 }
 
 #header {
-    margin-top: 120px;
     text-align: center;
+}
+
+#first_view {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #header h1 {
     font-size: 100px;
     color: #000000;
+    padding-bottom: 20px;
 }
 
 #header h2 {
     font-size: 30px;
-    color: #363636
+    color: #363636;
+    padding-bottom: 30px;
 }
 
 #socials {
     flex-direction: row;
     align-self: center;
-    padding: auto;
+    padding-bottom: 30px;
 }
 
 #socials a {
-    float: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 #socials img {
@@ -43,18 +52,11 @@
     height: 50px;
 }
 
-
-/* Style the left column */
-.left_col {
-    font-size: 18px;
-    flex: 40%;
-    padding: 20px;
-}
-
-/* Style the right column */
-.right_col {
-    font-size: 18px;
-    flex: 60%;
-    padding: 20px;
-    padding-right: 150px;
+#extra {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
 }
