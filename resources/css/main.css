@@ -42,7 +42,7 @@ p {
 /* styling for navigation bar underneaht header */
 .navbar {
     overflow: hidden;
-    background-color: dimgray;
+    background-color: rgb(56, 56, 56);
     z-index: 2;
 }
 

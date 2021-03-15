@@ -2,7 +2,7 @@
     contains styling modifications specific to index.html */
 
 #page {
-    background-image: url(pictures/sunset_background.png);
+    background-image: url(../images/sunset_background.png);
     background-color: lightblue;
     background-repeat: no-repeat;
     background-position: center;
