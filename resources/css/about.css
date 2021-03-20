@@ -5,13 +5,7 @@ css for the about.html
 
 
 #content {
-    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-    margin-left: 10%;
-    font-size: 18px;
-    text-align: left;
 }
 
 #description {

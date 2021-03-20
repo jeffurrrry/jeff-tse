@@ -1,6 +1,10 @@
 /* projects.css
     contains styling modifications specific to projects.html */
 
+#content {
+    flex-direction: column;
+}
+
 /* Style the left column */
 .left_col {
     font-size: 18px;
