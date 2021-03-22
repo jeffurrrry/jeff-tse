@@ -1,11 +1,11 @@
 /* projects.css
     contains styling modifications specific to projects.html */
 
-#selfDriveDesigns {
-    width: 90%;
+#item {
     align-self: center;
     padding: 30px;
-    background-color: grey;
+    background-color: white;
+    margin: 20px;
 }
 
 #logos {
@@ -20,7 +20,9 @@
     width: auto;
 }
 
-#p5 {
+#p5Examples {
     align-self: center;
     width: min-content;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
