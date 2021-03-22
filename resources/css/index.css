@@ -37,7 +37,7 @@
 }
 
 #socials {
-    flex-direction: row;
+    /* flex-direction: row; */
     align-self: center;
     padding-bottom: 30px;
 }
