@@ -65,23 +65,22 @@ p {
     color: dimgray;
 }
 
-/* styling for columns in pages */
-.columns {
-    font-size: 18px;
-    text-align: center;
+.row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.columns h4 {
-    font-size: 22px;
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
-/* styling for normal content without columns */
-.content {
+#content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
     font-size: 18px;
-    padding-left: 40px;
-    padding-right: 40px;
     text-align: left;
 }
 
@@ -103,7 +102,7 @@ p {
 .footer {
     background-color: #aeefff;
     text-align: center;
-    padding-top: .75rem;
+    padding-top: 1rem;
 }
 
 .footer a {
@@ -117,12 +116,12 @@ p {
 }
 
 #content-wrap {
-    padding-bottom: 3rem /* footer height */
+    padding-bottom: 3.5rem /* footer height */
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
 }

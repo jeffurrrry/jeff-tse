@@ -3,26 +3,13 @@ about.css
 css for the about.html
 */
 
-
-#content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-    margin-left: 10%;
-    font-size: 18px;
-    text-align: left;
-}
-
 #description {
-    /* flex-direction: column; */
     width: 30%;
     align-items: center;
     justify-content: center;
 }
 
 #resume {
-    /* flex-direction: column; */
     width: 70%;
     align-items: center;
     text-align: center;
