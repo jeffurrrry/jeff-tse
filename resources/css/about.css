@@ -4,16 +4,11 @@ css for the about.html
 */
 
 #description {
-    width: 30%;
-    align-items: center;
-    justify-content: center;
+    width: min-content;
 }
 
 #resume {
-    width: 70%;
-    align-items: center;
-    text-align: center;
-    justify-content: left;
+    /* currently does not need anything */
 }
 
 /* adjustments for narrow screens */
