@@ -1,6 +1,10 @@
 /* index.css
     contains styling modifications specific to index.html */
 
+body {
+    overflow-x: hidden;
+}
+
 #page {
     background-image: url(../images/sunset_background.png);
     background-color: lightblue;
@@ -22,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #header h1 {
@@ -37,7 +42,6 @@
 }
 
 #socials {
-    /* flex-direction: row; */
     align-self: center;
     padding-bottom: 30px;
 }
@@ -59,4 +63,66 @@
     background-color: rgba(255, 255, 255, 0.6);
     padding: 30px;
     margin-top: 10vh;
+    z-index: 1;
+}
+
+.bird {
+    animation-name: bird;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    width: 50px;
+    left: -10vw;
+    z-index: 0;
+}
+
+#bird1 {
+    animation-delay: 0s;
+    top: 100px;
+}
+
+#bird2 {
+    animation-delay: 6s;
+    top: 350px;
+}
+
+#bird3 {
+    animation-delay: 12s;
+    top: 600px;
+}
+
+#bird4 {
+    animation-delay: 3s;
+    top: 850px;
+}
+
+#bird5 {
+    animation-delay: 9s;
+    top: 1100px;
+}
+
+#bird6 {
+    animation-delay: 15s;
+    top: 1350px;
+}
+
+@keyframes bird {
+    0% {
+        left: -10vw;
+    }
+    49% {
+        transform: scaleX(1);
+    }
+    50% {
+        left: 100vw;
+        transform: scaleX(-1);
+    }
+    99% {
+        transform: scaleX(-1);
+    }
+    100% {
+        left: -10vw;
+        transform: scaleX(1);
+    }
 }
