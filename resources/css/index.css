@@ -84,27 +84,27 @@ body {
 
 #bird2 {
     animation-delay: 6s;
-    top: 300px;
+    top: 350px;
 }
 
 #bird3 {
     animation-delay: 12s;
-    top: 500px;
+    top: 600px;
 }
 
 #bird4 {
     animation-delay: 3s;
-    top: 700px;
+    top: 850px;
 }
 
 #bird5 {
     animation-delay: 9s;
-    top: 900px;
+    top: 1100px;
 }
 
 #bird6 {
     animation-delay: 15s;
-    top: 1100px;
+    top: 1350px;
 }
 
 @keyframes bird {
