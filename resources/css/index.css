@@ -42,6 +42,8 @@ body {
 }
 
 #socials {
+    display: flex;
+    flex-direction: row;
     align-self: center;
     padding-bottom: 30px;
 }
@@ -124,5 +126,11 @@ body {
     100% {
         left: -10vw;
         transform: scaleX(1);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #extra {
+        width: 85vw;
     }
 }

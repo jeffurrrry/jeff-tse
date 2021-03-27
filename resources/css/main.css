@@ -88,9 +88,12 @@ h4 {
 }
 
 /* adjustments for narrow screens */
-@media screen and (max-width: 700px) {
-    .columns {
+@media screen and (max-width: 800px) {
+    .row {
         flex-direction: column;
+    }
+    #content {
+        width: 98%;
     }
 }
 
