@@ -26,6 +26,27 @@
     <img src="resources/images/bird_side.png" class="bird" id="bird5">
     <img src="resources/images/bird_side.png" class="bird" id="bird6">
 
+    <img src="resources/images/bird_side.png" id="jsBird">
+
+    <script>
+      var id = null;
+      var elem = document.getElementById("jsBird");
+      elem.style.width = 50 + "px";
+      elem.style.top = 300 + "px";
+      var pos = 0;
+      clearInterval(id);
+      id = setInterval(frame, 5);
+      function frame() {
+        if (pos == 100) {
+          clearInterval(id);
+        }
+        else {
+          pos += .01;
+          elem.style.left = pos + "vw";
+        }
+      }
+    </script>
+
     <div id="first_view">
 
       <div id="header">

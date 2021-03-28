@@ -107,6 +107,11 @@ body {
     top: 1350px;
 }
 
+#jsBird {
+    position: absolute;
+    /* width: 50px; */
+}
+
 @keyframes bird {
     0% {
         left: -10vw;
