@@ -109,7 +109,6 @@ body {
 
 #jsBird {
     position: absolute;
-    /* width: 50px; */
 }
 
 @keyframes bird {
