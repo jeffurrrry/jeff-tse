@@ -35,7 +35,7 @@ h4 {
 .header {
     padding: 50px;
     text-align: center;
-    /* background: rgba(255, 255, 255, 0.6); */
+    text-decoration: underline;
 }
 
 .header h1 {
@@ -111,7 +111,7 @@ h4 {
 
 /* style for footer */
 .footer {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color:  rgb(56, 56, 56);
     text-align: center;
     padding-top: 1rem;
 }
