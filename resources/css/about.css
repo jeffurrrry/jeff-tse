@@ -3,6 +3,14 @@ about.css
 css for the about.html
 */
 
+#page {
+    background-image: url(../images/sunset_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: lightblue;
+}
+
 #description {
     width: min-content;
 }
