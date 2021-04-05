@@ -6,7 +6,12 @@
 }
 
 html {
-    background-color: #e9fbff;  /* color for whole page */
+    /* background-color: #e9fbff;  */
+    background-image: url(../images/sunset_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: lightblue;
 }
 
 body {
@@ -28,14 +33,14 @@ h4 {
 
 /* styling function for th eheader */
 .header {
-    padding: 30px;
+    padding: 50px;
     text-align: center;
-    background: #aeefff;
+    text-decoration: underline;
 }
 
 .header h1 {
     font-size: 50px;
-    color: #333333
+    color: black;
 }
 
 .header h2 {
@@ -106,7 +111,7 @@ h4 {
 
 /* style for footer */
 .footer {
-    background-color: #aeefff;
+    background-color:  rgb(56, 56, 56);
     text-align: center;
     padding-top: 1rem;
 }
