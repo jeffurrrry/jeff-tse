@@ -1,18 +1,19 @@
-// make navbar stick to the top even when scrolling
+// make navbar disappear when scrolling down
 
-// when page scrolls, execute addSticky() function
-window.onscroll = function() {addSticky()};
 
-// get the navbar
-var navbar = document.getElementsByClassName("navbar");
+document.addEventListener("DOMContentLoaded", function () {
 
-// get the offset posisiont of the navbar
-var sticky = navbar.offsetTop;
+    var prevScroll = 20;
 
-// add sticky id to the navbar when scroll and remove when it's the top
-function addSticky() {
-    if (window.pageYOffset >= sticky) 
-        navbar.classList.add("sticky");
-    else
-        navbar.classList.remove("sticky")
-}
+    window.onscroll = function () { 
+        var scroll = window.pageYOffset;
+
+        if (scroll >= prevScroll) {
+            navbar.classList.add("disappear");
+        }
+        else {
+            navbar.classList.remove("disappear");
+        }
+        prevScroll = scroll;
+    }
+});
