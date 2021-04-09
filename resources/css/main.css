@@ -5,14 +5,19 @@
     box-sizing: border-box;
 }
 
-html {
-    /* background-color: #e9fbff;  */
+#page {
     background-image: url(../images/sunset_background.png);
+    background-color: lightblue;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15vh;
+    position: relative; 
+    min-height: 100vh;
 }
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,13 +54,16 @@ h4 {
 }
 
 /* styling for navigation bar underneaht header */
-.navbar {
+#navbar {
     overflow: hidden;
     background-color: rgb(56, 56, 56);
     z-index: 2;
+    position: fixed;
+    width: 100%;
+    transition: top .5s ease;
 }
 
-.navbar a {
+#navbar a {
     float: left;
     display: block;
     color: white;
@@ -65,11 +73,11 @@ h4 {
     text-decoration: none;
 }
 
-.navbar a.right {
+#navbar a.right {
     float: right;
 }
 
-.navbar a:hover {
+#navbar a:hover {
     background-color: white;
     color: dimgray;
 }
@@ -121,12 +129,8 @@ h4 {
     padding: 10px;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
 #content-wrap {
+    padding-top: 54px; /* height of navbar */
     padding-bottom: 3.5rem /* footer height */
 }
 

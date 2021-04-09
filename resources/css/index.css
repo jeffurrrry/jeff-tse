@@ -5,16 +5,6 @@ body {
     overflow-x: hidden;
 }
 
-#page {
-    background-image: url(../images/sunset_background.png);
-    background-color: lightblue;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 15vh;
-}
 
 #header {
     text-align: center;
