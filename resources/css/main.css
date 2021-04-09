@@ -60,7 +60,7 @@ h4 {
     z-index: 2;
     position: fixed;
     width: 100%;
-    transition: top 2s ease;
+    transition: top .5s ease;
 }
 
 #navbar a {
@@ -80,10 +80,6 @@ h4 {
 #navbar a:hover {
     background-color: white;
     color: dimgray;
-}
-
-.disappear {
-    top: -54px;
 }
 
 .row {

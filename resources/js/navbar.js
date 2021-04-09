@@ -8,11 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
     window.onscroll = function () { 
         var scroll = window.pageYOffset;
 
+        // if the offset is greater than before, it means scrolled
+        // so the navbar should transition up
         if (scroll >= prevScroll) {
-            navbar.classList.add("disappear");
+            navbar.style.top = "-54px";
         }
         else {
-            navbar.classList.remove("disappear");
+            navbar.style.top = "0px";
         }
         prevScroll = scroll;
     }
