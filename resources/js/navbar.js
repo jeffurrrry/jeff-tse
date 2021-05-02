@@ -1,6 +1,14 @@
+// html for the navbar
+$("body").prepend(
+    `<div id="navbar">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html" class="right">contact me</a>
+    </div>`);
+
+
 // make navbar disappear when scrolling down
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
     var prevScroll = 20;
