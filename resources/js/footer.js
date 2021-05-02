@@ -1,5 +1,4 @@
-// figure out how to make footer code callable 
-// through the use of javascript
+// spacing seems to be incorrect when appending the footer
 
 $("body").append(
     `<div class="footer" id="footer">
